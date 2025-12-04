@@ -1,0 +1,24 @@
+| Equipa                            | Piloto                | Nacionalidade | Nº carro                                       | Idade (2025)                           
+| --------------------------------- | --------------------- | ------------- | ---------------------------------------------- | ---------------------------------------
+| Alpine                            | Pierre Gasly          | França        | 10                                             | 29 
+| Alpine                            | Jack Doohan           | Austrália     | 7                                              | 22                     
+| Aston Martin                      | Fernando Alonso       | Espanha       | 14                                             | 44  
+| Aston Martin                      | Lance Stroll          | Canadá        | 18                                             | 26                      
+| Scuderia Ferrari                  | Charles Leclerc       | Mónaco        | 16                                             | 28  
+| Ferrari                           | Lewis Hamilton        | Reino Unido   | 44                                             | 40  
+| Haas                              | Esteban Ocon          | França        | 31                                             | 29                     
+| Haas                              | Oliver Bearman        | Reino Unido   | 87                                             | 20  
+| McLaren                           | Lando Norris          | Reino Unido   | 4                                              | 25                      
+| McLaren                           | Oscar Piastri         | Austrália     | 81                                             | 24  
+| Mercedes                          | George Russell        | Reino Unido   | 63                                             | 27  
+| Mercedes                          | Andrea Kimi Antonelli | Itália        | 12                                             | 19  
+| RB F1                             | Yuki Tsunoda          | Japão         | 22                                             | 25  
+| RB                                | Isack Hadjar          | França        | 6                                              | 21                     
+| Red Bull Racing                   | Max Verstappen        | Países Baixos | 1                                              | 28                     
+| Red Bull Racing                   | Liam Lawson           | Nova Zelândia | 30                                             | 23  
+| Kick Sauber                       | Nico Hülkenberg       | Alemanha      | 27                                             | 38                    
+| Kick Sauber                       | Gabriel Bortoleto     | Brasil        | 5                                              | 21  
+| Williams Racing                   | Alexander Albon       | Tailândia     | 23                                             | 29                     
+| Williams                          | Carlos Sainz Jr.      | Espanha       | 55                                             | 30                     
+
+
