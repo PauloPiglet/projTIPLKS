@@ -1,0 +1,107 @@
+:root {
+  --f1-red: #FF1E00;
+  --f1-black: #15151E;
+  --f1-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--f1-black);
+  color: var(--f1-white);
+}
+
+/* Barra de topo */
+.topbar {
+  width: 100%;
+  background-color: #1c1c1c;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+.topbar nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar nav ul li a {
+  text-decoration: none;
+  color: var(--f1-white);
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.topbar nav ul li a:hover {
+  color: var(--f1-red);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.car-card {
+  position: relative;
+  width: 50%;       
+  margin: 0 auto;   
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: var(--f1-black);
+}
+
+.car-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.car-card:hover img {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(255, 30, 0, 0.5);
+}
+
+.car-card h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--f1-red);
+  font-size: 36px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+  pointer-events: none;
+}
+
+@media (max-width: 900px) {
+  .car-card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .car-card {
+    width: 90%;
+  }
+  .car-card h1 {
+    font-size: 22px;
+  }
+  
+  .topbar nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
