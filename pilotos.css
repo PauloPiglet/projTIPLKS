@@ -11,7 +11,6 @@ body {
   color: var(--f1-white);
 }
 
-/* ===== HEADER ===== */
 header {
   width: 100%;
   background-color: #1c1c1c;
@@ -22,59 +21,52 @@ header {
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
-/* ===== GRID ===== */
 .pilotos-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
   padding: 40px;
   max-width: 1400px;
   margin: 0 auto;
 }
 
-/* ===== CARD ===== */
 .piloto-card {
-  background-color: #1c1c1c;
-  border-radius: 14px;
-  padding: 20px;
   text-align: center;
-  border: 1px solid #2a2a2a;
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   cursor: pointer;
+  padding: 10px 0;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: transform 0.25s ease;
 }
 
 .piloto-card:hover {
-  transform: scale(1.03);
-  border-color: var(--f1-red);
-  box-shadow: 0 10px 25px rgba(255, 30, 0, 0.4);
+  transform: scale(1.05);
 }
 
-/* ===== PILOT IMAGE ===== */
 .piloto-foto {
   width: 100%;
   max-width: 260px;
   height: auto;
   display: block;
   margin: 0 auto 15px auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease;
 }
 
 .piloto-card:hover .piloto-foto {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(255, 30, 0, 0.4);
+  transform: scale(1.07);
 }
 
-/* ===== TEXT ===== */
 .piloto-nome {
   font-size: 24px;
   color: var(--f1-red);
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .piloto-equipa {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .piloto-pontos {
@@ -82,12 +74,7 @@ header {
   font-weight: bold;
 }
 
-/* ===== MOBILE ===== */
 @media (max-width: 600px) {
-  .piloto-card {
-    padding: 15px;
-  }
-
   .piloto-nome {
     font-size: 20px;
   }
