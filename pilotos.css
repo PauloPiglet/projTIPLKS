@@ -10,6 +10,36 @@ body {
   background-color: var(--f1-black);
   color: var(--f1-white);
 }
+.topbar { width: 100%;
+  background-color: #1c1c1c;
+  padding: 15px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+  } 
+         
+.topbar nav ul { list-style: none; 
+  display: flex;
+  justify-content: center; 
+  gap: 40px; 
+  margin: 0; 
+  padding: 0; 
+} 
+
+.topbar nav ul li a { 
+  text-decoration: none; 
+  color: var(--f1-white); 
+  font-weight: bold; 
+  transition: color 0.3s ease; 
+} 
+
+.topbar nav ul li a:hover { 
+  color: var(--f1-red); 
+} 
+
+.content { 
+  display: flex; 
+  justify-content: 
+  center; padding: 40px 20px; 
+} 
 
 header {
   width: 100%;
@@ -20,6 +50,7 @@ header {
   font-weight: bold;
   box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
+
 
 .pilotos-container {
   display: grid;
