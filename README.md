@@ -5,5 +5,5 @@ Projeto Final Da Disciplina De Tecnologias Da Internet
 Paulo Leitão
 Kaleyl Santos
 
-## Link para o site 
-<img src="https://paulopiglet.github.io/projTIPLKS/My_QR_Code_1-1024.png" width="150" >
+https://paulopiglet.github.io/projTIPLKS/
+<img width="194" height="195" alt="Captura de ecrã 2025-12-10 142049" src="https://github.com/user-attachments/assets/9c51784a-e009-471b-9a47-2dad93c00085" />
