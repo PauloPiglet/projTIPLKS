@@ -97,7 +97,6 @@ color: var(--f1-white);
   flex-direction: column; 
   gap: 15px; } }
 
-/* ====== CARRO ====== */
 .carro-container {
   width: 100%;
   text-align: center;
@@ -117,7 +116,7 @@ color: var(--f1-white);
   transform: scale(1.03);
 }
 
-/* ====== PILOTOS LADO A LADO ====== */
+
 
 .pilotos-equipa {
   display: flex;
