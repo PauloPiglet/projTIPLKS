@@ -6,4 +6,5 @@ Paulo Leitão
 Kaleyl Santos
 
 https://paulopiglet.github.io/projTIPLKS/
-<img width="194" height="195" alt="Captura de ecrã 2025-12-10 142049" src="https://github.com/user-attachments/assets/9c51784a-e009-471b-9a47-2dad93c00085" />
+
+<img width="1147" height="1147" alt="qr-code" src="https://github.com/user-attachments/assets/3f88180c-42ec-44b2-af51-61deab7e95e8" />
