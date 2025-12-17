@@ -169,7 +169,6 @@ color: var(--f1-white);
   position: relative;
 }
 
-/* Linha decorativa F1 */
 .equipa-titulo::after {
   content: "";
   display: block;
@@ -186,3 +185,133 @@ color: var(--f1-white);
   text-align: justify;
   max-width: 950px;
 }
+
+.noticias-index {
+  max-width: 1200px;
+  margin: 60px auto;
+  padding: 0 30px;
+}
+
+.noticia-card {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 14px;
+  cursor: pointer;
+}
+
+.noticia-img {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.noticia-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85),
+    rgba(0, 0, 0, 0.2)
+  );
+  display: flex;
+  align-items: flex-end;
+  padding: 30px;
+}
+
+
+.noticia-titulo {
+  font-size: 32px;
+  color: var(--f1-white);
+  font-weight: bold;
+  max-width: 800px;
+  line-height: 1.2;
+}
+
+.noticia-card:hover .noticia-img {
+  transform: scale(1.05);
+}
+
+.noticia-card:hover .noticia-titulo {
+  color: var(--f1-red);
+}
+
+
+@media (max-width: 768px) {
+  .noticia-img {
+    height: 260px;
+  }
+
+  .noticia-titulo {
+    font-size: 22px;
+  }
+}
+
+  .noticia-container {
+    max-width: 900px;
+    margin: 70px auto;
+    padding: 0 25px;
+    color: var(--f1-white);
+  }
+
+  .noticia-titulo-principal {
+    font-size: 38px;
+    font-weight: bold;
+    color: var(--f1-red);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .noticia-data {
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 30px;
+  }
+
+  .noticia-imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  .noticia-texto {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 25px;
+  }
+
+  .noticia-video {
+    width: 100%;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .noticia-video iframe {
+    width: 640px;
+    height: 360px;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .noticia-rodape {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #2a2a2a;
+    font-size: 16px;
+    color: #aaa;
+  }
+
+  @media (max-width: 768px) {
+    .noticia-video iframe {
+      height: 280px;
+    }
+    .noticia-titulo-principal {
+      font-size: 30px;
+    }
+  }
