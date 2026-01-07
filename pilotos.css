@@ -10,6 +10,11 @@ body {
   background-color: var(--f1-black);
   color: var(--f1-white);
 }
+
+ a {
+  cursor: url("cursor-f1.png") 16 16, pointer;
+}
+
 .topbar { width: 100%;
   background-color: #1c1c1c;
   padding: 15px 0;
